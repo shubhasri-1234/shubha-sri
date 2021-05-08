@@ -1,0 +1,336 @@
+*{
+    padding :0;
+    margin :0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }  
+  body{
+    font-family: montserrat;
+  }
+  
+  nav{
+    background: rgb(56, 8, 228);
+    height: 80px;
+    width: 100%;
+  }
+  label.logo
+  {
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding : 0 100px;
+    font-weight : bold;
+  }
+  nav ul{
+   float :right;
+   margin-right : 20px;
+  }
+  nav ul li{
+    display : inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  nav ul li a{
+    color : white;
+    font-size:17px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+  
+  }
+  a.active,a:hover{
+    background: #2c80ee;
+    transition: .5s;
+  }
+  #hero{
+    width:100%;
+    height: 80vh;
+    background: url("./images/2.jpg") center;
+    background-size:cover;
+  }
+  #hero h1{
+    margin: 0 0 10px 0;
+    padding: 100px 50px 2px 225px;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 56px;
+    color:black;
+  }
+  #hero h2{
+    color:black;
+    margin-bottom: 40px;
+    padding: 2px 50px 0px 150px;
+    font-size: 15px;
+    font-weight: light;
+    letter-spacing: 0.5px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .main-btn{
+   font-weight: bold;
+    font-size: 16px;
+    letter-spacing:1px;
+    display:inline-block;
+    padding:8px 28px;
+    border-radius:50px;
+    transition: 0.5s;
+    margin: 0px 50px 75px 315px;
+    border: 2px solid black;
+    color:black
+  }
+  .main-btn:hover{
+    background:rgb(45, 5, 221);
+    border: 2px solid black;
+    color:black;
+  
+  }
+  /* service section */
+  .service .gallery{
+    background-color: rgb(1, 1, 15);
+  }
+  .service .two{
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing:1px;
+    display:inline-block;
+    padding:8px 28px;
+    margin: 100px 50px 5px 550px;
+    color:black;
+    text-decoration: underline;
+  }
+  
+  div.gallery {
+    margin: 25px 0px 0px 100px;
+    border: 2px solid rgb(10, 10, 10);
+    float: left;
+    width: 300px;
+    height: auto; 
+  } 
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height :200px;
+  }
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .three{
+    margin: 0px 50px 0px 390px;
+    font-family: 'Montserrat', sans-serif;
+    color:black;
+    font-weight: bold;
+  }
+  /* medical camps */
+
+  .camp{
+  margin: 10px 300px 10px 350px;
+  border-style: solid;
+  padding: 25px 40px 25px 45px;
+  font-family: 'Montserrat', sans-serif;
+  color:black;
+  font-weight: bold;
+  }
+  .link{
+  color: rgb(40, 6, 233);
+  background-color: transparent;
+  text-decoration: none;
+  }
+  .camps .four{
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing:1px;
+    display:inline-block;
+    padding:5px 28px;
+    margin: 100px 50px 0px 490px;
+    color:black;
+    text-decoration: underline;
+  }
+  div.gallery1 {
+    margin: 25px 0px 0px 100px;
+    border: 3px solid rgb(10, 10, 10);
+    float: left;
+    width: 300px;
+    height: auto; 
+  } 
+
+  div.gallery1 img {
+    width: 100%;
+    height :200px;
+  }
+  #bg{
+    width:100%;
+    height: 80vh;
+    background: url("./images/10.jpeg") center;
+     background-size:cover; 
+  }
+  /*contact */
+  .contact{
+      text-align: center;
+      margin: 100px 50px 10px 70px;
+      text-decoration: underline;
+  }
+  .body{
+    background: #0ad5f0;
+    padding: 0 10px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    border-style: solid;
+    border-width: 4px;
+  }
+  .wrapper{
+    max-width: 500px;
+    width: 100%;
+    background: #fff;
+    margin: 20px auto;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.125);
+    padding: 30px;
+  }
+  
+  .wrapper .title{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #2c07fe;
+    /* text-transform: uppercase; */
+    text-align: center;
+  }
+  
+  .wrapper .form{
+    width: 100%;
+  }
+  
+  .wrapper .form .inputfield{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .wrapper .form .inputfield label{
+     width: 200px;
+     color: #080808;
+     margin-right: 10px;
+    font-size: 14px;
+  }
+  
+  .wrapper .form .inputfield .input,
+  .wrapper .form .inputfield .textarea{
+    width: 100%;
+    outline: none;
+    border: 1px solid #d5dbd9;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+  }
+  
+  .wrapper .form .inputfield .textarea{
+    width: 100%;
+    height: 125px;
+    resize: none;
+  }
+  
+  .wrapper .form .inputfield .custom_select{
+    position: relative;
+    width: 100%;
+    height: 37px;
+  }
+  
+  .wrapper .form .inputfield .custom_select:before{
+    content: "";
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    border: 8px solid;
+    border-color: #434344 transparent transparent transparent;
+    pointer-events: none;
+  }
+  
+  .wrapper .form .inputfield .custom_select select{
+    appearance: none;
+    width: 100%;
+    height: 100%;
+    border: 0px;
+    padding: 8px 10px;
+    font-size: 15px;
+    border: 1px solid #d5dbd9;
+    border-radius: 3px;
+  }
+  .wrapper .form .inputfield p{
+     font-size: 14px;
+     color: #757575;
+  }
+  .wrapper .form .inputfield .check{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    display: block;
+    cursor: pointer;
+  }
+  .wrapper .form .inputfield .check input[type="checkbox"]{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+  }
+  .wrapper .form .inputfield .check .checkmark{
+    width: 15px;
+    height: 15px;
+    border: 1px solid #2a0cd6;
+    display: block;
+    position: relative;
+  }
+  .wrapper .form .inputfield .check .checkmark:before{
+    content:"";
+    position: absolute;
+    top: 1px;
+    left: 2px;
+    width: 5px;
+    height: 2px;
+    border: 2px solid;
+    border-color: transparent transparent #fff #fff;
+    transform: rotate(-45deg);
+    display: none;
+  }
+   .wrapper .form .inputfield .check input[type="checkbox"]:checked ~ .checkmark{
+    background: #111111;
+  } 
+  
+  .wrapper .form .inputfield .check input[type="checkbox"]:checked ~ .checkmark:before{
+    display: block;
+  }
+  
+  .wrapper .form .inputfield .btn{
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 15px; 
+    border: 0px;
+    background:  #2c07fe;;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+    outline: none;
+  }
+  
+  .wrapper .form .inputfield .btn:hover{
+    background: #3c2eb4;
+  }
+  
+  .wrapper .form .inputfield:last-child{
+    margin-bottom: 0;
+  }
+  .last{
+    background-color: rgb(31, 30, 30);
+    margin: 50px 0 0 0;
+    
+  }
+  .last p{
+    color:rgb(31, 30, 30);
+  }
